@@ -1,0 +1,119 @@
+* {
+ margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+
+html,body {
+height : 100%;
+width : 100%;
+font-family: "gilroy";
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 7vw;
+}
+.box{
+    width: 23vw;
+    /* height: 30vw; */
+    background : linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 10px;
+    padding: 1vw;
+}
+.search{
+    width: 100%;
+    display: flex;
+justify-content:center;
+align-items: center;
+
+gap: 10px;
+}
+.search input{
+    width: 16vw;
+    height: 2.5vw;
+    outline: 0;
+    border-radius: 50px;
+    border: none;
+    padding: 0 1vw;
+    font-size: 1vw;
+    font-weight: 400;
+    background-color: #ffffffaa;
+}
+.search button{
+border: none;
+border-radius: 50%;
+width: 3vw;
+height: 3vw;
+background-color: #ffffffaa;
+padding: 5px;
+}
+.search button img{
+    width: 1vw;
+}
+.weathericon{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 1vw;
+}
+.weathericon img{
+    width: 7vw;
+}
+.temp{
+    text-align: center;
+    margin-top: 2vw;
+    color: rgba(255, 255, 255, 0.791);
+}
+.temp h3{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.temp h2{
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.weather-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vw;
+}
+.weather-info .info{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.weather-info .info img{
+    width: 2vw;
+}
+.weather-info .info .inner-part{
+    color: rgba(255, 255, 255, 0.651);
+}
+.weather-info .info .inner-part h3{
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+.weather-info .info .inner-part h5{
+    font-size: 13px;
+    font-weight:500;
+    text-transform: capitalize;
+}
+.weather{
+    display: none;
+}
+.error{
+    margin: 5px 1vw;
+    display: none;
+}
+.error p{
+    font-size: 1vw;
+    text-transform: capitalize;
+ color: rgba(255, 255, 255, 0.749);
+
+}
